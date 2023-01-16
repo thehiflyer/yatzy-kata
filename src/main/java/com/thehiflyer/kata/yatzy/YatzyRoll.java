@@ -1,4 +1,4 @@
-package com.king.kata.yatzy;
+package com.thehiflyer.kata.yatzy;
 
 public class YatzyRoll {
 	private final int[] dice;
