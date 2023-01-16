@@ -14,7 +14,7 @@ public class YatzyTest {
 	}
 
 	@Test
-	public void chanceScoresCorrectly() {
+	public void chanceScoreIsTheSumOfTheDice() {
 		int score = yatzyScorer.calculateScore(Category.CHANCE, new YatzyRoll(5, 2, 1, 4, 6));
 		assertEquals(18, score);
 	}
